@@ -1,12 +1,19 @@
 {
   "name": "iwant-style",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariorodeghiero/iwant-style.git"
+  },
+  "author": "Mario Antonio do Amaral Rodeghiero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mariorodeghiero/iwant-style/issues"
+  },
+  "homepage": "https://github.com/mariorodeghiero/iwant-style#readme"
 }
