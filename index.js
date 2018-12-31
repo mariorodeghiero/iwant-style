@@ -4,4 +4,4 @@
 
 'use strict';
 
-module.exports = require('./lib/test.js');
+module.exports = require('./lib/iwant-style.js');
