@@ -1,6 +1,5 @@
 <div align="center">
  <h1>iwant-style</h1>
-<img src="https://user-images.githubusercontent.com/24671133/50561660-e03a1580-0cf3-11e9-9b51-459662e5eaa0.png" width="400" />
 
 Import ready styles using CSS in JS to be used in conjunction with stylized components.
 
@@ -10,6 +9,8 @@ Import ready styles using CSS in JS to be used in conjunction with stylized comp
 [![Bugs](https://img.shields.io/github/issues/mariorodeghiero/iwant-style/bug.svg)](https://github.com/mariorodeghiero/iwant-style/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug)
 [![npm downloads](https://img.shields.io/npm/dt/iwant-style.svg?style=flat-square)](http://npm-stat.com/charts.html?package=iwant-style)
 [![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+
+<img src="https://user-images.githubusercontent.com/24671133/50561660-e03a1580-0cf3-11e9-9b51-459662e5eaa0.png" width="400" />
 
 </div>
 
