@@ -1,6 +1,6 @@
 <div align="center">
  <h1>iwant-style</h1>
-<img src="https://user-images.githubusercontent.com/24671133/50561390-55f0b200-0cf1-11e9-8d3c-fe81e3201024.png" width="200" />
+<img src="https://user-images.githubusercontent.com/24671133/50561660-e03a1580-0cf3-11e9-9b51-459662e5eaa0.png" width="400" />
 
 Import ready styles using CSS in JS to be used in conjunction with stylized components.
 
