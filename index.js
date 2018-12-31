@@ -1,7 +1,7 @@
-// import './style/button';
+// import btn from './lib/button';
+// import card from './lib/card';
+// import navbar from './lib/navbar';
 
 'use strict';
 
-// module.exports = require('./lib/iwant-style');
-
-module.exports = require('./style/test.js');
+module.exports = require('./lib/test.js');
