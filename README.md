@@ -48,21 +48,24 @@ npm install styled-components
 
   import { preloader } from 'iwant-style';
 
-
-  const PreloaderCircle = styled.div`
-    ${preloader('circle')};
+  const Preloader = styled.div`
+    ${preloader};
   `;
 
   ...
-    <PreloaderCircle>
+    <Preloader>
         <div />
-    </PreloaderCircle>
+        <div />
+        <div />
+    </Preloader>
   ...
 ```
 
 ## Components
 
 ### PreLoader
+
+<img src="./img/loader.png" width="300" />
 
 ##### Usage
 
@@ -71,26 +74,48 @@ npm install styled-components
 
   import { preloader } from 'iwant-style';
 
-
-  const PreloaderCircle = styled.div`
-    ${preloader('circle')};
+  const Preloader = styled.div`
+    ${preloader};
   `;
 
   ...
-    <PreloaderCircle>
+    <Preloader>
         <div />
-    </PreloaderCircle>
+        <div />
+        <div />
+    </Preloader>
   ...
 ```
 
 ##### Properties
 
-| Name                  | Parameter  | Default   |
-| --------------------- | ---------- | --------- |
-| `${preloader}`        |            | `bubbles` |
-| `${preloader(param)}` | `"circle"` |           |
+| Name                 | Parameter | Default   |
+| -------------------- | --------- | --------- |
+| `${preloader}`       |           | `bubbles` |
+| `${preloaderCircle}` |           | `circle`  |
+
+## Preloader Circle
+
+```javascript
+  import styled from 'styled-components';
+
+  import { preloaderCircle } from 'iwant-style';
+
+
+  const Preloader = styled.div`
+    ${preloaderCircle};
+  `;
+
+  ...
+    <Preloader>
+        <div />
+    </Preloader>
+  ...
+```
 
 ### Avatar
+
+<img src="./img/avatar.png" width="300" />
 
 ##### Usage
 
@@ -110,13 +135,13 @@ npm install styled-components
 
 ##### Properties
 
-| Name               | Parameter   | Default  |
-| ------------------ | ----------- | -------- |
-| `${avatar}`        |             | `person` |
-| `${avatar(param)}` | `"online"`  |          |
-| `${avatar(param)}` | `"offline"` |          |
+| Name        | Parameter | Default  |
+| ----------- | --------- | -------- |
+| `${avatar}` |           | `person` |
 
 ### Button
+
+<img src="./img/button.png" width="300" />
 
 ##### Usage
 
@@ -144,6 +169,8 @@ npm install styled-components
 
 ### Input
 
+<img src="./img/inputs.png" width="300" />
+
 ##### Usage
 
 ```javascript
@@ -164,14 +191,34 @@ npm install styled-components
   ...
 ```
 
+## Dark
+
+```javascript
+  import styled from 'styled-components';
+
+  import { inputDark } from 'iwant-style';
+
+  const Dark = styled.form`
+    ${inputDark};
+  `;
+
+  ...
+     <Dark action='' method=''>
+      <input type='search' placeholder='What are you looking for?' />
+      <button>Search</button>
+    </Dark>
+  ...
+```
+
 ##### Properties
 
-| Name              | Parameter | Default     |
-| ----------------- | --------- | ----------- |
-| `${input}`        |           | `animation` |
-| `${input(param)}` | `"fixed"` |             |
+| Name       | Parameter | Default     |
+| ---------- | --------- | ----------- |
+| `${input}` |           | `animation` |
 
 ### Card
+
+<img src="./img/cards.png" width="300" />
 
 ##### Usage
 
@@ -194,12 +241,13 @@ npm install styled-components
 
 ##### Properties
 
-| Name             | Parameter   | Default |
-| ---------------- | ----------- | ------- |
-| `${card}`        |             | `info`  |
-| `${card(param)}` | `"profile"` |         |
+| Name      | Parameter | Default |
+| --------- | --------- | ------- |
+| `${card}` |           | `info`  |
 
 ### Pagination
+
+<img src="./img/pagination.png" width="200" />
 
 ##### Usage
 
@@ -235,37 +283,9 @@ npm install styled-components
 
 ##### Properties
 
-| Name                   | Parameter | Default |
-| ---------------------- | --------- | ------- |
-| `${pagination}`        |           | `arrow` |
-| `${pagination(param)}` | `"dark"`  |         |
-
-### Navbar
-
-##### Usage
-
-```javascript
-  import styled from 'styled-components';
-
-  import { navbar } from 'iwant-style';
-
-  const Navbar = styled.div`
-    ${navbar};
-  `;
-
-  ...
-     <Navbar>
-
-    </Navbar>
-  ...
-```
-
-##### Properties
-
-| Name               | Parameter | Default |
-| ------------------ | --------- | ------- |
-| `${navbar}`        |           | `clean` |
-| `${navbar(param)}` | `"fixed"` |         |
+| Name            | Parameter | Default |
+| --------------- | --------- | ------- |
+| `${pagination}` |           | `arrow` |
 
 ## Contributing
 
