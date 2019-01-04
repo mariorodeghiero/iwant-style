@@ -141,7 +141,7 @@ npm install styled-components
 
 ### Button
 
-<img src="./img/button.png" width="300" />
+<img src="./img/button.png"  />
 
 ##### Usage
 
@@ -169,7 +169,7 @@ npm install styled-components
 
 ### Input
 
-<img src="./img/inputs.png" width="300" />
+<img src="./img/inputs.png" />
 
 ##### Usage
 
@@ -218,7 +218,7 @@ npm install styled-components
 
 ### Card
 
-<img src="./img/cards.png" width="300" />
+<img src="./img/cards.png" width="400" />
 
 ##### Usage
 
