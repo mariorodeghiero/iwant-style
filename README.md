@@ -46,18 +46,17 @@ npm install styled-components
 ```javascript
   import styled from 'styled-components';
 
-  import { preloader } from 'iwant-style';
+  import { inputDark } from 'iwant-style';
 
-  const Preloader = styled.div`
-    ${preloader};
+  const Dark = styled.form`
+    ${inputDark};
   `;
 
   ...
-    <Preloader>
-        <div />
-        <div />
-        <div />
-    </Preloader>
+     <Dark action='' method=''>
+      <input type='search' placeholder='What are you looking for?' />
+      <button>Search</button>
+    </Dark>
   ...
 ```
 
@@ -233,9 +232,19 @@ npm install styled-components
 
   ...
      <Card>
-      <h1>Title</h1>
-      <p>lorem inpson</p>
-    </Card>
+       <h1>Card Title</h1>
+        <p>
+          Veniam elit commodo culpa sunt adincididunt nisi minim amet qui
+          sit pariatur occaecat. Veniam elitcommodo culpa sunt ad
+          incididunt nisi minim amet qui sitpariatur occaecat. sit pariatur
+          occaecat.
+        </p>
+      <hr />
+      <div>
+        <a href='#'>This is a link</a>
+        <a href='#'>This is a link</a>
+      </div>
+     </Card>
   ...
 ```
 
