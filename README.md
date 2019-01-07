@@ -1,7 +1,7 @@
 <div align="center">
  <h1>iwant-style</h1>
 
-Import ready styles using CSS in JS to be used in conjunction with stylized components.
+iwant-style library imports ready styles using CSS in JS to be used in conjunction with styled-components.
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/mariorodeghiero/iwant-style/issues)
 <a href="https://badge.fury.io/js/iwant-style"><img src="https://badge.fury.io/js/iwant-style.svg" alt="npm version" height="18"></a>
@@ -20,6 +20,7 @@ Import ready styles using CSS in JS to be used in conjunction with stylized comp
 - [Usage](#usage)
 - [Components](#components)
 
+  - [Comment](#Comment)
   - [Preloader](#Preloader)
   - [Avatar](#Avatar)
   - [Button](#Button)
@@ -61,6 +62,47 @@ npm install styled-components
 ```
 
 ## Components
+
+### Comment
+
+<img src="https://thepracticaldev.s3.amazonaws.com/i/tulft4p7ra61x9yuglt1.png" width="300" />
+
+##### Usage
+
+```javascript
+  import styled from 'styled-components';
+  
+  import { comment } from 'iwant-style';
+
+  const Comments = styled.div`
+    ${comment}
+  `;
+
+  ...
+   <Comments>
+      <section>
+        <h1>Petter</h1>
+        <h2>C0-Founder</h2>
+        <p>
+          Sit cupidatat commodo sit reprehenderit reprehenderit irure aliquip do
+          occaecat id.
+        </p>
+      </section>
+      <div>
+        <img
+          src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample5.jpg'
+          alt='profile-sample5'
+        />
+      </div>
+    </Comments>
+  ...
+```
+
+##### Properties
+
+| Name         | Parameter | Default   |
+| -----------  | --------- | --------  |
+| `${comment}` |           | `default` |
 
 ### PreLoader
 
@@ -164,7 +206,7 @@ npm install styled-components
 | --------------- | ----------- | -------- |
 | `${btn}`        |             | `square` |
 | `${btn(param)}` | `"disable"` |          |
-| `${btn(param)}` | `"float"`   |          |
+| `${btn(param)}` | `"round"`   |          |
 
 ### Input
 
